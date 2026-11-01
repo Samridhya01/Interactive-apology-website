@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import celebration from "../assets/images/celebration.png";
 
-const FinalScreen = ({ onReplay }) => {
+const FinalScreen = () => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -33,13 +33,15 @@ const FinalScreen = ({ onReplay }) => {
           Ab bas smiles hi smiles 🎉❤️
         </p>
 
-        {/* Replay */}
-        <button
-          onClick={onReplay}
-          className="px-10 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full text-xl font-medium shadow-lg hover:scale-105 transition-all duration-300"
+        {/* WhatsApp Button */}
+        <a
+          href="https://w.app/0hiaos"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-10 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full text-xl font-medium shadow-lg hover:scale-105 transition-all duration-300"
         >
-          Replay 🔁
-        </button>
+          Click Here ❤️💌
+        </a>
       </div>
     </div>
   );
