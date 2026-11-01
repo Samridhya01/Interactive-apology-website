@@ -7,7 +7,7 @@ import img5 from "../assets/images/img5.jpg";
 export const story = [
   {
     image: img1,
-    text: "Hiiii Goluuuu, Just wanted to tell you somethingggg...",
+    text: "Hiiii Sona Bouuu, Just wanted to tell you somethingggg...",
   },
   {
     image: img2,
